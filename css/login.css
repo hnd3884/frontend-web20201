@@ -39,6 +39,9 @@ body{
     outline: none;
     font-size: 18px;
 }
+.form-control a:hover{
+    color: white;
+}
 #login-button{
     background-color: red;
     color: white;
