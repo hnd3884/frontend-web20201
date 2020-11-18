@@ -1,0 +1,27 @@
+.navtop{
+    height: 80px;
+    background-color: black;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+}
+.navtop ul{
+    margin: 0;
+    padding: 20px;
+    display: inline-block;
+}
+.navtop li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+.navtop a{
+    text-decoration: none;
+    color: white!important;
+}
+.navtop .right{
+    position: absolute;
+    margin-top: 8px;
+    right: 0px;
+}
