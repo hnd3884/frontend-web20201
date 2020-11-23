@@ -1,87 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/common.css">
-        <link rel="stylesheet" href="css/navtop.css">
-        <link rel="stylesheet" href="css/home.css">
 
-    </head>
-    <body>
-        <div class="navtop">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/navtop.css">
+    <link rel="stylesheet" href="css/home.css">
 
-            <ul class="left">
+</head>
 
-                <li>
-                    <a href="">
-                        <strong style="font-size: 25px;">Home</strong>
-                    </a>
-                </li>
-                <li>
-                    <a href="">Films</a>
-                </li>
-                <li>
-                    <a href="">Your List</a>
-                </li>
+<body>
+    <div class="navtop">
 
-            </ul>
-            <ul class="right">
-                <li>
-                    <a href="">Hi Hoangnd</a>
-                </li>
-                <li>
-                    <a href="">Logout</a>
-                </li>
-            </ul>
+        <ul class="left">
 
-        </div>
+            <li>
+                <a href="">
+                    <strong style="font-size: 25px;">Home</strong>
+                </a>
+            </li>
+            <li>
+                <a href="">Films</a>
+            </li>
+            <li>
+                <a href="">Your List</a>
+            </li>
 
-        <div
-            class="main">
-            <!-- Slideshow container -->
-            <div
-                class="slideshow-container">
+        </ul>
+        <ul class="right">
+            <li>
+                <a href="">Hi Hoangnd</a>
+            </li>
+            <li>
+                <a href="">Logout</a>
+            </li>
+        </ul>
 
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade cover1">
-                    <div class="right">
-                        <strong class="film-name-banner">Aladdin</strong>
-                        <p>Aladdin là phim điện ảnh nhạc kịch kỳ ảo của Mỹ do Guy Ritchie đạo diễn, người đồng viết kịch bản với John August, và do hãng Walt Disney Pictures sản xuất. Đây là phiên bản làm lại người đóng của tác phẩm hoạt hình cùng tên năm 1992 của Disney, cả hai đều dựa trên truyện cổ tích cùng tên từ Nghìn lẻ một đêm</p>
-                        <button style="background-color: red;">Xem ngay</button>
-                        <button style="background-color: black;">+ Thêm vào list</button>
-                    </div>
+    </div>
+
+    <div class="main">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade cover1">
+                <div class="right">
+                    <strong class="film-name-banner">Aladdin</strong>
+                    <p>Aladdin là phim điện ảnh nhạc kịch kỳ ảo của Mỹ do Guy Ritchie đạo diễn, người đồng viết kịch bản
+                        với John August, và do hãng Walt Disney Pictures sản xuất. Đây là phiên bản làm lại người đóng
+                        của tác phẩm hoạt hình cùng tên năm 1992 của Disney, cả hai đều dựa trên truyện cổ tích cùng tên
+                        từ Nghìn lẻ một đêm</p>
+                    <button class="watch-now-btn">Xem ngay</button>
+                    <button class="add-to-list-btn">+ Thêm vào list</button>
                 </div>
-
-                <div class="mySlides fade cover2">
-                    <div class="right">
-                        <strong class="film-name-banner">Avengers - End Game</strong>
-                        <p>Avengers: Hồi kết là phim điện ảnh siêu anh hùng Mỹ ra mắt năm 2019, do Marvel Studios sản xuất và Walt Disney Studios Motion Pictures phân phối. Phim là phần thứ tư của loạt phim Avengers, sau Biệt đội siêu anh hùng, Avengers: Đế chế Ultron và Avengers: Cuộc chiến vô cực</p>
-                        <button style="background-color: red;">Xem ngay</button>
-                        <button style="background-color: black;">+ Thêm vào list</button>
-                    </div>
-                </div>
-
-                <div class="mySlides fade cover3">
-                    <div class="right">
-                        <strong class="film-name-banner">Aladdin</strong>
-                        <p>Aladdin là phim điện ảnh nhạc kịch kỳ ảo của Mỹ do Guy Ritchie đạo diễn, người đồng viết kịch bản với John August, và do hãng Walt Disney Pictures sản xuất. Đây là phiên bản làm lại người đóng của tác phẩm hoạt hình cùng tên năm 1992 của Disney, cả hai đều dựa trên truyện cổ tích cùng tên từ Nghìn lẻ một đêm</p>
-                        <button style="background-color: red;">Xem ngay</button>
-                        <button style="background-color: black;">+ Thêm vào list</button>
-                    </div>
-                </div>
-
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
             </div>
-            <br>
+
+            <div class="mySlides fade cover2">
+                <div class="right">
+                    <strong class="film-name-banner">Avengers - End Game</strong>
+                    <p>Avengers: Hồi kết là phim điện ảnh siêu anh hùng Mỹ ra mắt năm 2019, do Marvel Studios sản xuất
+                        và Walt Disney Studios Motion Pictures phân phối. Phim là phần thứ tư của loạt phim Avengers,
+                        sau Biệt đội siêu anh hùng, Avengers: Đế chế Ultron và Avengers: Cuộc chiến vô cực</p>
+                    <button class="watch-now-btn">Xem ngay</button>
+                    <button class="add-to-list-btn">+ Thêm vào list</button>
+                </div>
+            </div>
+
+            <div class="mySlides fade cover3">
+                <div class="right">
+                    <strong class="film-name-banner">Avatar</strong>
+                    <p>Avatar là một bộ phim khoa học viễn tưởng của Mỹ năm 2009 do James Cameron viết kịch bản và đạo
+                        diễn, với sự tham gia của các diễn viên Sam Worthington, Zoe Saldana, Stephen Lang, Michelle
+                        Rodriguez, Joel David Moore, Giovanni Ribisi và Sigourney Weaver.</p>
+                    <button class="watch-now-btn">Xem ngay</button>
+                    <button class="add-to-list-btn">+ Thêm vào list</button>
+                </div>
+            </div>
 
         </div>
-    </body>
+        <br>
 
-    <script src="js/home.js"></script>
+        <div id="new-films" class="main-content">
+            <div class="main-content-header">
+                <h1><span>New films</span></h1>
+            </div>
+            <div class="line-cards">
+                <div class="card">
+                    <img src="assets/images/thumbnail.jpg">
+                </div>
+                <div class="card">
+                    <img src="assets/images/thumbnail.jpg">
+                </div>
+                <div class="card">
+                    <img src="assets/images/thumbnail.jpg">
+                </div>
+            </div>
+            <div class="line-cards">
+                <div class="card">
+                    <img src="assets/images/thumbnail.jpg">
+                </div>
+                <div class="card">
+                    <img src="assets/images/thumbnail2.jpg">
+                </div>
+                <div class="card">
+                    <img src="assets/images/thumbnail.jpg">
+                </div>
+            </div>
+            <div class="line-cards">
+                <div class="card">
+                    <img src="assets/images/thumbnail.jpg">
+                </div>
+                <div class="card">
+                    <img src="assets/images/thumbnail2.jpg">
+                </div>
+                <div class="card">
+                    <img src="assets/images/thumbnail2.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div id="hot-films" class="main-content">
+            <div class="main-content-header">
+                <h1><span>Hot films</span></h1>
+            </div>
+            <div class="line-cards"></div>
+
+        </div>
+
+        <div id="most-rated-films" class="main-content">
+            <div class="main-content-header">
+                <h1><span>Most rated films</span></h1>
+            </div>
+            <div class="line-cards"></div>
+
+        </div>
+    </div>
+</body>
+
+<script src="js/home.js"></script>
+
 </html>
