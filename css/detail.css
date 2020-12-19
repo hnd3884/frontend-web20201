@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+}
+.main-content {
+  margin: 40px 90px;
+  color: white !important;
+  background-color: black;
+  margin-top: 80px;
+}
+.detail {
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 30px;
+  display: inline-block;
+  width: 42%;
+  margin-left: 41px;
+  box-sizing: border-box;
+}
+.comment {
+  margin-top: 50px;
+  padding: 30px;
+}
+.watch-now-btn {
+  background-color: red;
+}
+.add-to-list-btn {
+  background-color: #797979;
+}
+.rate-btn {
+  background-color: blue;
+}
+#rate-input {
+  width: 20px;
+}
+#post-watch video {
+  margin-bottom: 50px;
+}
+#post-watch video:focus {
+  outline: none;
+}
